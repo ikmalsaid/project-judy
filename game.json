@@ -1,0 +1,647 @@
+{
+  "firstLayout": "",
+  "gdVersion": {
+    "build": 99,
+    "major": 4,
+    "minor": 0,
+    "revision": 0
+  },
+  "properties": {
+    "adaptGameResolutionAtRuntime": true,
+    "folderProject": true,
+    "orientation": "landscape",
+    "packageName": "com.ikmalsaid.projectjudy",
+    "pixelsRounding": true,
+    "projectUuid": "a03593c3-ed64-4e50-a395-6b1628a5d747",
+    "scaleMode": "nearest",
+    "sizeOnStartupMode": "",
+    "templateSlug": "",
+    "useExternalSourceFiles": false,
+    "version": "1.0.0",
+    "name": "PROJECT JUDY",
+    "description": "",
+    "author": "Ikmal Said",
+    "windowWidth": 1280,
+    "windowHeight": 720,
+    "latestCompilationDirectory": "",
+    "maxFPS": 60,
+    "minFPS": 60,
+    "verticalSync": false,
+    "platformSpecificAssets": {},
+    "loadingScreen": {
+      "backgroundColor": 0,
+      "backgroundFadeInDuration": 0.2,
+      "backgroundImageResourceName": "",
+      "gdevelopLogoStyle": "light",
+      "logoAndProgressFadeInDuration": 0.2,
+      "logoAndProgressLogoFadeInDelay": 0.2,
+      "minDuration": 1.5,
+      "progressBarColor": 16777215,
+      "progressBarHeight": 20,
+      "progressBarMaxWidth": 200,
+      "progressBarMinWidth": 40,
+      "progressBarWidthPercent": 30,
+      "showGDevelopSplash": true,
+      "showProgressBar": true
+    },
+    "watermark": {
+      "placement": "bottom-left",
+      "showWatermark": true
+    },
+    "authorIds": [
+      "6KhTpftJxca4kbgWFu11sytmVHo2"
+    ],
+    "authorUsernames": [
+      "ikmalsaid"
+    ],
+    "categories": [],
+    "playableDevices": [],
+    "extensionProperties": [],
+    "platforms": [
+      {
+        "name": "GDevelop JS platform"
+      }
+    ],
+    "currentPlatform": "GDevelop JS platform"
+  },
+  "resources": {
+    "resources": [
+      {
+        "alwaysLoaded": false,
+        "file": "assets/collision_red.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\collision_red.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "fonts/MontserratBold.otf",
+        "kind": "font",
+        "metadata": "",
+        "name": "fonts\\MontserratBold.otf",
+        "userAdded": false
+      },
+      {
+        "file": "fonts/MontserratRegular.otf",
+        "kind": "font",
+        "metadata": "",
+        "name": "fonts\\MontserratRegular.otf",
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "player/idle/player_idle1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "player\\idle\\player_idle1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "player/idle/player_idle2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "player\\idle\\player_idle2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "player/idle/player_idle3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "player\\idle\\player_idle3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "player/idle/player_idle4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "player\\idle\\player_idle4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "player/idle/player_idle5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "player\\idle\\player_idle5.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "player/idle/player_idle6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "player\\idle\\player_idle6.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "player/swim/player_swim1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "player\\swim\\player_swim1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "player/swim/player_swim2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "player\\swim\\player_swim2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "player/swim/player_swim3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "player\\swim\\player_swim3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "player/swim/player_swim4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "player\\swim\\player_swim4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "player/swim/player_swim5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "player\\swim\\player_swim5.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "player/swim/player_swim6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "player\\swim\\player_swim6.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "player/swim/player_swim7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "player\\swim\\player_swim7.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/bomb_big/bomb_big0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\bomb_big\\bomb_big0.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/bomb_big/bomb_big1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\bomb_big\\bomb_big1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/bomb_big/bomb_big2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\bomb_big\\bomb_big2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/bomb_big/bomb_big3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\bomb_big\\bomb_big3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/bomb_big/bomb_big4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\bomb_big\\bomb_big4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/bomb_big/bomb_big5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\bomb_big\\bomb_big5.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/bomb_big/bomb_big6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\bomb_big\\bomb_big6.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/bomb_big/bomb_big7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\bomb_big\\bomb_big7.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/bomb_big/bomb_big8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\bomb_big\\bomb_big8.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/bomb_big/bomb_big9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\bomb_big\\bomb_big9.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/bomb_big/bomb_big10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\bomb_big\\bomb_big10.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/bomb_big/bomb_big11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\bomb_big\\bomb_big11.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/bomb_small/bomb_small0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\bomb_small\\bomb_small0.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/bomb_small/bomb_small1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\bomb_small\\bomb_small1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/bomb_small/bomb_small2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\bomb_small\\bomb_small2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/bomb_small/bomb_small3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\bomb_small\\bomb_small3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/bomb_small/bomb_small4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\bomb_small\\bomb_small4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/bomb_small/bomb_small5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\bomb_small\\bomb_small5.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/bomb_small/bomb_small6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\bomb_small\\bomb_small6.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/bomb_small/bomb_small7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\bomb_small\\bomb_small7.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/bomb_small/bomb_small8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\bomb_small\\bomb_small8.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/bomb_small/bomb_small9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\bomb_small\\bomb_small9.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/bomb_small/bomb_small10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\bomb_small\\bomb_small10.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/bomb_small/bomb_small11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\bomb_small\\bomb_small11.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/bomb_normal/bomb_normal0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\bomb_normal\\bomb_normal0.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/bomb_normal/bomb_normal1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\bomb_normal\\bomb_normal1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/bomb_normal/bomb_normal2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\bomb_normal\\bomb_normal2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/bomb_normal/bomb_normal3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\bomb_normal\\bomb_normal3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/bomb_normal/bomb_normal4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\bomb_normal\\bomb_normal4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/bomb_normal/bomb_normal5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\bomb_normal\\bomb_normal5.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/bomb_normal/bomb_normal6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\bomb_normal\\bomb_normal6.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/bomb_normal/bomb_normal7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\bomb_normal\\bomb_normal7.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/bomb_normal/bomb_normal8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\bomb_normal\\bomb_normal8.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/bomb_normal/bomb_normal9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\bomb_normal\\bomb_normal9.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/bomb_normal/bomb_normal10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\bomb_normal\\bomb_normal10.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/bomb_normal/bomb_normal11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\bomb_normal\\bomb_normal11.png",
+        "smoothed": false,
+        "userAdded": false
+      }
+    ],
+    "resourceFolders": []
+  },
+  "objects": [
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "bold_text",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "BOLD",
+      "font": "fonts\\MontserratBold.otf",
+      "textAlignment": "left",
+      "characterSize": 40,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "regular_text",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "REGULAR",
+      "font": "fonts\\MontserratRegular.otf",
+      "textAlignment": "left",
+      "characterSize": 24,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      }
+    }
+  ],
+  "objectsGroups": [],
+  "variables": [
+    {
+      "folded": true,
+      "name": "negative_speed",
+      "type": "number",
+      "value": -300
+    },
+    {
+      "folded": true,
+      "name": "positive_speed",
+      "type": "number",
+      "value": 300
+    },
+    {
+      "folded": true,
+      "name": "default_state",
+      "type": "number",
+      "value": 1
+    }
+  ],
+  "layouts": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/main"
+    }
+  ],
+  "externalEvents": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/player_state"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/player_controller_new"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/player_controller_old"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/bomb_collision"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/red_tint_fix"
+    }
+  ],
+  "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/flash"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/parallax"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/animationsystem"
+    }
+  ],
+  "externalLayouts": [],
+  "externalSourceFiles": []
+}

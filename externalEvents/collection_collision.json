@@ -39,6 +39,17 @@
       "actions": [
         {
           "type": {
+            "value": "ModVarObjet"
+          },
+          "parameters": [
+            "player_sprite",
+            "glass",
+            "+",
+            "1"
+          ]
+        },
+        {
+          "type": {
             "value": "Delete"
           },
           "parameters": [
@@ -52,7 +63,7 @@
           },
           "parameters": [
             "player_sprite",
-            "glass",
+            "oxygen",
             "+",
             "1"
           ]
@@ -95,6 +106,17 @@
       "actions": [
         {
           "type": {
+            "value": "ModVarObjet"
+          },
+          "parameters": [
+            "player_sprite",
+            "plastic",
+            "+",
+            "1"
+          ]
+        },
+        {
+          "type": {
             "value": "Delete"
           },
           "parameters": [
@@ -108,7 +130,7 @@
           },
           "parameters": [
             "player_sprite",
-            "plastic",
+            "oxygen",
             "+",
             "1"
           ]
@@ -151,6 +173,17 @@
       "actions": [
         {
           "type": {
+            "value": "ModVarObjet"
+          },
+          "parameters": [
+            "player_sprite",
+            "paper",
+            "+",
+            "1"
+          ]
+        },
+        {
+          "type": {
             "value": "Delete"
           },
           "parameters": [
@@ -164,7 +197,7 @@
           },
           "parameters": [
             "player_sprite",
-            "paper",
+            "oxygen",
             "+",
             "1"
           ]
@@ -207,6 +240,17 @@
       "actions": [
         {
           "type": {
+            "value": "ModVarObjet"
+          },
+          "parameters": [
+            "player_sprite",
+            "metal",
+            "+",
+            "1"
+          ]
+        },
+        {
+          "type": {
             "value": "Delete"
           },
           "parameters": [
@@ -220,7 +264,7 @@
           },
           "parameters": [
             "player_sprite",
-            "metal",
+            "oxygen",
             "+",
             "1"
           ]

@@ -28,6 +28,18 @@
         },
         {
           "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "player_sprite",
+            "drop_glass",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
             "value": "BuiltinCommonInstructions::Once"
           },
           "parameters": []
@@ -76,6 +88,289 @@
           "parameters": [
             "glass",
             "Physics2"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "KeyPressed"
+          },
+          "parameters": [
+            "",
+            "Space"
+          ]
+        },
+        {
+          "type": {
+            "value": "VarObjet"
+          },
+          "parameters": [
+            "player_sprite",
+            "plastic",
+            ">=",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "player_sprite",
+            "drop_plastic",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ModVarObjet"
+          },
+          "parameters": [
+            "player_sprite",
+            "plastic",
+            "-",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "CreateByName"
+          },
+          "parameters": [
+            "",
+            "plastic",
+            "\"plastic\"+ToString(RandomInRange(1,3))",
+            "player_sprite.CenterX()",
+            "player_sprite.CenterY()",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarObjet"
+          },
+          "parameters": [
+            "plastic",
+            "collected",
+            "=",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "Physics2::SetDynamic"
+          },
+          "parameters": [
+            "plastic",
+            "Physics2"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "KeyPressed"
+          },
+          "parameters": [
+            "",
+            "Space"
+          ]
+        },
+        {
+          "type": {
+            "value": "VarObjet"
+          },
+          "parameters": [
+            "player_sprite",
+            "paper",
+            ">=",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "player_sprite",
+            "drop_paper",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ModVarObjet"
+          },
+          "parameters": [
+            "player_sprite",
+            "paper",
+            "-",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "CreateByName"
+          },
+          "parameters": [
+            "",
+            "paper",
+            "\"paper\"+ToString(RandomInRange(1,3))",
+            "player_sprite.CenterX()",
+            "player_sprite.CenterY()",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarObjet"
+          },
+          "parameters": [
+            "paper",
+            "collected",
+            "=",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "Physics2::SetDynamic"
+          },
+          "parameters": [
+            "paper",
+            "Physics2"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "KeyPressed"
+          },
+          "parameters": [
+            "",
+            "Space"
+          ]
+        },
+        {
+          "type": {
+            "value": "VarObjet"
+          },
+          "parameters": [
+            "player_sprite",
+            "metal",
+            ">=",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "player_sprite",
+            "drop_metal",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ModVarObjet"
+          },
+          "parameters": [
+            "player_sprite",
+            "metal",
+            "-",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "CreateByName"
+          },
+          "parameters": [
+            "",
+            "metal",
+            "\"metal\"+ToString(RandomInRange(1,3))",
+            "player_sprite.CenterX()",
+            "player_sprite.CenterY()",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarObjet"
+          },
+          "parameters": [
+            "metal",
+            "collected",
+            "=",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "Physics2::SetDynamic"
+          },
+          "parameters": [
+            "metal",
+            "Physics2"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "TiledSpriteObject::SetOpacity"
+          },
+          "parameters": [
+            "drop",
+            "=",
+            "100"
           ]
         }
       ]

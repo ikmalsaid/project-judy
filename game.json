@@ -21,8 +21,8 @@
     "name": "PROJECT JUDY",
     "description": "",
     "author": "Ikmal Said",
-    "windowWidth": 1280,
-    "windowHeight": 720,
+    "windowWidth": 1024,
+    "windowHeight": 768,
     "latestCompilationDirectory": "",
     "maxFPS": 60,
     "minFPS": 60,
@@ -66,22 +66,6 @@
   },
   "resources": {
     "resources": [
-      {
-        "alwaysLoaded": false,
-        "file": "assets/collision_red.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\collision_red.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "fonts/MontserratBold.otf",
-        "kind": "font",
-        "metadata": "",
-        "name": "fonts\\MontserratBold.otf",
-        "userAdded": false
-      },
       {
         "file": "fonts/MontserratRegular.otf",
         "kind": "font",
@@ -529,56 +513,335 @@
         "name": "assets\\bomb_normal\\bomb_normal11.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/enemy_bigfish/enemy_bigfish1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enemy_bigfish\\enemy_bigfish1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/enemy_bigfish/enemy_bigfish2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enemy_bigfish\\enemy_bigfish2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/enemy_bigfish/enemy_bigfish3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enemy_bigfish\\enemy_bigfish3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/enemy_bigfish/enemy_bigfish4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enemy_bigfish\\enemy_bigfish4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/enemy_piranha/enemy_piranha1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enemy_piranha\\enemy_piranha1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/enemy_piranha/enemy_piranha2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enemy_piranha\\enemy_piranha2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/enemy_piranha/enemy_piranha3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enemy_piranha\\enemy_piranha3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/enemy_piranha/enemy_piranha4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enemy_piranha\\enemy_piranha4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/enemy_hornet/enemy_hornet1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enemy_hornet\\enemy_hornet1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/enemy_hornet/enemy_hornet2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enemy_hornet\\enemy_hornet2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/enemy_hornet/enemy_hornet3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enemy_hornet\\enemy_hornet3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/enemy_hornet/enemy_hornet4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enemy_hornet\\enemy_hornet4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/enemy_hornet/enemy_hornet0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enemy_hornet\\enemy_hornet0.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/enemy_hornet/enemy_hornet5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enemy_hornet\\enemy_hornet5.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/enemy_hornet/enemy_hornet6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enemy_hornet\\enemy_hornet6.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/enemy_hornet/enemy_hornet7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enemy_hornet\\enemy_hornet7.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/enemy_hornet/enemy_hornet8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enemy_hornet\\enemy_hornet8.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/enemy_hornet/enemy_hornet9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enemy_hornet\\enemy_hornet9.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/hud_bar/BlueFillBar.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\hud_bar\\BlueFillBar.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/hud_bar/WhiteBorder.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\hud_bar\\WhiteBorder.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/hud_bar/RedFillBar.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\hud_bar\\RedFillBar.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/hud_bar/OxygenTank.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\hud_bar\\OxygenTank.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/collections/glass1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\collections\\glass1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/collections/glass2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\collections\\glass2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/collections/glass3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\collections\\glass3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/collections/metal1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\collections\\metal1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/collections/metal2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\collections\\metal2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/collections/metal3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\collections\\metal3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/collections/paper1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\collections\\paper1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/collections/paper2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\collections\\paper2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/collections/paper3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\collections\\paper3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/collections/plastic1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\collections\\plastic1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/collections/plastic2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\collections\\plastic2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/collections/plastic3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\collections\\plastic3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "New image",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/hud_bar/WhiteLine.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\hud_bar\\WhiteLine.png",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
   },
-  "objects": [
-    {
-      "assetStoreId": "",
-      "bold": false,
-      "italic": false,
-      "name": "bold_text",
-      "smoothed": true,
-      "tags": "",
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "string": "BOLD",
-      "font": "fonts\\MontserratBold.otf",
-      "textAlignment": "left",
-      "characterSize": 40,
-      "color": {
-        "b": 255,
-        "g": 255,
-        "r": 255
-      }
-    },
-    {
-      "assetStoreId": "",
-      "bold": false,
-      "italic": false,
-      "name": "regular_text",
-      "smoothed": true,
-      "tags": "",
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "string": "REGULAR",
-      "font": "fonts\\MontserratRegular.otf",
-      "textAlignment": "left",
-      "characterSize": 24,
-      "color": {
-        "b": 255,
-        "g": 255,
-        "r": 255
-      }
-    }
-  ],
+  "objects": [],
   "objectsGroups": [],
   "variables": [
     {
@@ -625,10 +888,42 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/collection_collision"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/enemy_collision"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/externalEvents/red_tint_fix"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/hud_events"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/drop_events"
     }
   ],
   "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/camerashake"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/smoothcamera"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/panelspritebutton"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/panelspritecontinuousbar"
+    },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/flash"
@@ -636,6 +931,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/parallax"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/ellipsemovement"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,

@@ -1,0 +1,15 @@
+{ "columns":64,
+ "image":"props_atlas.png",
+ "imageheight":496,
+ "imagewidth":1024,
+ "margin":0,
+ "name":"props",
+ "spacing":0,
+ "tilecount":1984,
+ "tiledversion":"1.10.1",
+ "tileheight":16,
+ "tilewidth":16,
+ "transparentcolor":"#838383",
+ "type":"tileset",
+ "version":"1.10"
+}

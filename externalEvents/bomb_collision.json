@@ -25,59 +25,6 @@
           },
           "parameters": [
             "player_sprite",
-            "bomb_big",
-            "",
-            "",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "Flash::Flash::Flash"
-          },
-          "parameters": [
-            "player_sprite",
-            "Flash",
-            "1.5",
-            "3"
-          ]
-        },
-        {
-          "type": {
-            "value": "SetAnimationName"
-          },
-          "parameters": [
-            "bomb_big",
-            "\"explode\""
-          ]
-        },
-        {
-          "type": {
-            "value": "PlayAnimation"
-          },
-          "parameters": [
-            "bomb_big"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "CollisionNP"
-          },
-          "parameters": [
-            "player_sprite",
             "bomb_small",
             "",
             "",
@@ -101,6 +48,18 @@
             "Flash",
             "1.5",
             "3"
+          ]
+        },
+        {
+          "type": {
+            "value": "CameraShake::ShakeCamera"
+          },
+          "parameters": [
+            "",
+            ".5",
+            "0",
+            "0",
+            ""
           ]
         },
         {
@@ -119,6 +78,28 @@
           "parameters": [
             "bomb_small"
           ]
+        },
+        {
+          "type": {
+            "value": "ModVarObjet"
+          },
+          "parameters": [
+            "player_sprite",
+            "health",
+            "-",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarObjet"
+          },
+          "parameters": [
+            "player_sprite",
+            "oxygen",
+            "-",
+            ".5"
+          ]
         }
       ]
     },
@@ -158,6 +139,18 @@
         },
         {
           "type": {
+            "value": "CameraShake::ShakeCamera"
+          },
+          "parameters": [
+            "",
+            "1",
+            "0",
+            "0",
+            ""
+          ]
+        },
+        {
+          "type": {
             "value": "SetAnimationName"
           },
           "parameters": [
@@ -171,6 +164,115 @@
           },
           "parameters": [
             "bomb_normal"
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarObjet"
+          },
+          "parameters": [
+            "player_sprite",
+            "health",
+            "-",
+            "2"
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarObjet"
+          },
+          "parameters": [
+            "player_sprite",
+            "oxygen",
+            "-",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "player_sprite",
+            "bomb_big",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Flash::Flash::Flash"
+          },
+          "parameters": [
+            "player_sprite",
+            "Flash",
+            "1.5",
+            "3"
+          ]
+        },
+        {
+          "type": {
+            "value": "CameraShake::ShakeCamera"
+          },
+          "parameters": [
+            "",
+            "1.5",
+            "0",
+            "0",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetAnimationName"
+          },
+          "parameters": [
+            "bomb_big",
+            "\"explode\""
+          ]
+        },
+        {
+          "type": {
+            "value": "PlayAnimation"
+          },
+          "parameters": [
+            "bomb_big"
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarObjet"
+          },
+          "parameters": [
+            "player_sprite",
+            "health",
+            "-",
+            "3"
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarObjet"
+          },
+          "parameters": [
+            "player_sprite",
+            "oxygen",
+            "-",
+            "2"
           ]
         }
       ]
@@ -196,39 +298,6 @@
             "value": "AnimationName"
           },
           "parameters": [
-            "bomb_big",
-            "\"explode\""
-          ]
-        },
-        {
-          "type": {
-            "value": "AnimationEnded2"
-          },
-          "parameters": [
-            "bomb_big"
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "Delete"
-          },
-          "parameters": [
-            "bomb_big",
-            ""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "AnimationName"
-          },
-          "parameters": [
             "bomb_small",
             "\"explode\""
           ]
@@ -282,6 +351,39 @@
           },
           "parameters": [
             "bomb_normal",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "AnimationName"
+          },
+          "parameters": [
+            "bomb_big",
+            "\"explode\""
+          ]
+        },
+        {
+          "type": {
+            "value": "AnimationEnded2"
+          },
+          "parameters": [
+            "bomb_big"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "bomb_big",
             ""
           ]
         }

@@ -25,7 +25,7 @@
           },
           "parameters": [
             "player_sprite",
-            "bomb_small",
+            "bomb1",
             "",
             "",
             ""
@@ -64,10 +64,22 @@
         },
         {
           "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "sound\\enemy.wav",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
             "value": "SetAnimationName"
           },
           "parameters": [
-            "bomb_small",
+            "bomb1",
             "\"explode\""
           ]
         },
@@ -76,7 +88,7 @@
             "value": "PlayAnimation"
           },
           "parameters": [
-            "bomb_small"
+            "bomb1"
           ]
         },
         {
@@ -112,7 +124,7 @@
           },
           "parameters": [
             "player_sprite",
-            "bomb_normal",
+            "bomb2",
             "",
             "",
             ""
@@ -151,10 +163,22 @@
         },
         {
           "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "sound\\enemy.wav",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
             "value": "SetAnimationName"
           },
           "parameters": [
-            "bomb_normal",
+            "bomb2",
             "\"explode\""
           ]
         },
@@ -163,7 +187,7 @@
             "value": "PlayAnimation"
           },
           "parameters": [
-            "bomb_normal"
+            "bomb2"
           ]
         },
         {
@@ -199,7 +223,7 @@
           },
           "parameters": [
             "player_sprite",
-            "bomb_big",
+            "bomb3",
             "",
             "",
             ""
@@ -238,10 +262,22 @@
         },
         {
           "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "sound\\enemy.wav",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
             "value": "SetAnimationName"
           },
           "parameters": [
-            "bomb_big",
+            "bomb3",
             "\"explode\""
           ]
         },
@@ -250,7 +286,7 @@
             "value": "PlayAnimation"
           },
           "parameters": [
-            "bomb_big"
+            "bomb3"
           ]
         },
         {
@@ -298,7 +334,7 @@
             "value": "AnimationName"
           },
           "parameters": [
-            "bomb_small",
+            "bomb1",
             "\"explode\""
           ]
         },
@@ -307,7 +343,7 @@
             "value": "AnimationEnded2"
           },
           "parameters": [
-            "bomb_small"
+            "bomb1"
           ]
         }
       ],
@@ -317,7 +353,7 @@
             "value": "Delete"
           },
           "parameters": [
-            "bomb_small",
+            "bomb1",
             ""
           ]
         }
@@ -331,7 +367,7 @@
             "value": "AnimationName"
           },
           "parameters": [
-            "bomb_normal",
+            "bomb2",
             "\"explode\""
           ]
         },
@@ -340,7 +376,7 @@
             "value": "AnimationEnded2"
           },
           "parameters": [
-            "bomb_normal"
+            "bomb2"
           ]
         }
       ],
@@ -350,7 +386,7 @@
             "value": "Delete"
           },
           "parameters": [
-            "bomb_normal",
+            "bomb2",
             ""
           ]
         }
@@ -364,7 +400,7 @@
             "value": "AnimationName"
           },
           "parameters": [
-            "bomb_big",
+            "bomb3",
             "\"explode\""
           ]
         },
@@ -373,7 +409,7 @@
             "value": "AnimationEnded2"
           },
           "parameters": [
-            "bomb_big"
+            "bomb3"
           ]
         }
       ],
@@ -383,7 +419,7 @@
             "value": "Delete"
           },
           "parameters": [
-            "bomb_big",
+            "bomb3",
             ""
           ]
         }

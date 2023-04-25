@@ -1,0 +1,36 @@
+{
+  "associatedLayout": "main",
+  "lastChangeTimeStamp": 0,
+  "name": "wall_collision",
+  "events": [
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "player_sprite",
+            "void_color",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SeparateFromObjects"
+          },
+          "parameters": [
+            "player_sprite",
+            "void_color",
+            ""
+          ]
+        }
+      ]
+    }
+  ]
+}

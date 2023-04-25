@@ -50,6 +50,18 @@
         },
         {
           "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "sound\\collect.wav",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
             "value": "Delete"
           },
           "parameters": [
@@ -117,6 +129,18 @@
         },
         {
           "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "sound\\collect.wav",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
             "value": "Delete"
           },
           "parameters": [
@@ -184,6 +208,18 @@
         },
         {
           "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "sound\\collect.wav",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
             "value": "Delete"
           },
           "parameters": [
@@ -247,6 +283,18 @@
             "metal",
             "+",
             "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "sound\\collect.wav",
+            "",
+            "",
+            ""
           ]
         },
         {

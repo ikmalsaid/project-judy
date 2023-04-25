@@ -1,13 +1,13 @@
 {
-  "b": 111,
+  "b": 80,
   "disableInputWhenNotFocused": true,
   "mangledName": "main",
   "name": "main",
-  "r": 0,
+  "r": 80,
   "standardSortMethod": true,
   "stopSoundsOnStartup": false,
   "title": "",
-  "v": 51,
+  "v": 80,
   "uiSettings": {
     "grid": false,
     "gridType": "rectangular",
@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.2,
     "snap": false,
-    "zoomFactor": 0.40575189059438327,
+    "zoomFactor": 0.7876290101673875,
     "windowMask": false
   },
   "objectsGroups": [
@@ -103,9 +103,6 @@
           "name": "hud_resetgame"
         },
         {
-          "name": "hud_oxygentank"
-        },
-        {
           "name": "hud_whiteline"
         }
       ]
@@ -126,6 +123,96 @@
           "name": "drop_metal"
         }
       ]
+    },
+    {
+      "name": "no_collide",
+      "objects": [
+        {
+          "name": "glass1"
+        },
+        {
+          "name": "glass2"
+        },
+        {
+          "name": "glass3"
+        },
+        {
+          "name": "plastic1"
+        },
+        {
+          "name": "plastic2"
+        },
+        {
+          "name": "plastic3"
+        },
+        {
+          "name": "paper1"
+        },
+        {
+          "name": "paper2"
+        },
+        {
+          "name": "paper3"
+        },
+        {
+          "name": "metal1"
+        },
+        {
+          "name": "metal2"
+        },
+        {
+          "name": "metal3"
+        },
+        {
+          "name": "floor_chain"
+        },
+        {
+          "name": "bomb1"
+        },
+        {
+          "name": "bomb2"
+        },
+        {
+          "name": "bomb3"
+        },
+        {
+          "name": "enemy1"
+        },
+        {
+          "name": "enemy2"
+        },
+        {
+          "name": "enemy3"
+        }
+      ]
+    },
+    {
+      "name": "bomb",
+      "objects": [
+        {
+          "name": "bomb1"
+        },
+        {
+          "name": "bomb2"
+        },
+        {
+          "name": "bomb3"
+        }
+      ]
+    },
+    {
+      "name": "enemy",
+      "objects": [
+        {
+          "name": "enemy1"
+        },
+        {
+          "name": "enemy2"
+        },
+        {
+          "name": "enemy3"
+        }
+      ]
     }
   ],
   "variables": [],
@@ -133,104 +220,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 170,
+      "height": 150,
       "layer": "",
       "name": "player_sprite",
       "persistentUuid": "c5b31e67-b4b3-42a5-aec8-fbf460f9b6be",
-      "width": 170,
-      "x": -859,
-      "y": 85,
-      "zOrder": 2,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 112,
-      "layer": "",
-      "name": "enemy_bigfish",
-      "persistentUuid": "1c2bd9d7-8b7f-47fc-ad66-316452e9fb51",
-      "width": 124,
-      "x": -315,
-      "y": 177,
-      "zOrder": 2,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 73,
-      "layer": "",
-      "name": "enemy_piranha",
-      "persistentUuid": "4638bb20-7561-4a30-8d93-a20a81fa5592",
-      "width": 73,
-      "x": -449,
-      "y": 216,
-      "zOrder": 2,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 188,
-      "layer": "",
-      "name": "bomb_normal",
-      "persistentUuid": "98f2a484-1d6b-4602-acf1-3ab8dd0b9ed1",
-      "width": 137,
-      "x": -488,
-      "y": -10,
-      "zOrder": 2,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 121,
-      "layer": "",
-      "name": "bomb_small",
-      "persistentUuid": "93cf507b-c389-41e4-945c-ebd523938bd5",
-      "width": 101,
-      "x": -596,
-      "y": 40,
-      "zOrder": 2,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 199,
-      "layer": "",
-      "name": "bomb_big",
-      "persistentUuid": "7bf5e61e-812b-4412-ac37-882995bf1155",
-      "width": 179,
-      "x": -356,
-      "y": -24,
-      "zOrder": 2,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 106,
-      "layer": "",
-      "name": "enemy_hornet",
-      "persistentUuid": "a1ed7be3-5799-4989-9481-85d87421ed1a",
-      "width": 207,
-      "x": -516,
-      "y": 190,
-      "zOrder": 2,
+      "width": 150,
+      "x": 227,
+      "y": 316,
+      "zOrder": 8,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -268,13 +265,13 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 36,
+      "height": 67,
       "layer": "HUD",
       "name": "hud_resetgame",
       "persistentUuid": "c760dcff-f7a8-4ce3-883b-311753c97b50",
-      "width": 400,
-      "x": 320,
-      "y": 716,
+      "width": 453,
+      "x": 336,
+      "y": 691,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -342,192 +339,12 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "glass1",
-      "persistentUuid": "69a87d71-5615-4c31-a001-39dc80fd23db",
-      "width": 0,
-      "x": -381,
-      "y": 415,
-      "zOrder": 1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "glass2",
-      "persistentUuid": "78cda653-cd04-4939-af33-5cd82520eb8d",
-      "width": 0,
-      "x": -462,
-      "y": 431,
-      "zOrder": 1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "glass3",
-      "persistentUuid": "5bed5600-acb0-4993-b879-05ebb9fbab60",
-      "width": 0,
-      "x": -540,
-      "y": 432,
-      "zOrder": 1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "plastic1",
-      "persistentUuid": "1d67bdc4-e6c4-4b9c-a593-0d2de87abe77",
-      "width": 0,
-      "x": -574,
-      "y": 559,
-      "zOrder": 1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "plastic2",
-      "persistentUuid": "254a56a4-e70a-418a-92b7-c865cf4c36ef",
-      "width": 0,
-      "x": -494,
-      "y": 543,
-      "zOrder": 1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "plastic3",
-      "persistentUuid": "adddf731-6392-49f4-b3f7-5ae5f9136ae6",
-      "width": 0,
-      "x": -398,
-      "y": 511,
-      "zOrder": 1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "paper1",
-      "persistentUuid": "bc49e61a-c0bc-41f4-a1e7-269c694295e1",
-      "width": 0,
-      "x": -590,
-      "y": 671,
-      "zOrder": 1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "paper2",
-      "persistentUuid": "f743bfcb-6cd2-4af6-b03d-d697da6a4931",
-      "width": 0,
-      "x": -478,
-      "y": 655,
-      "zOrder": 1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "paper3",
-      "persistentUuid": "c099eb3b-995a-43b9-9fe0-b9a995fded88",
-      "width": 0,
-      "x": -382,
-      "y": 639,
-      "zOrder": 1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "metal1",
-      "persistentUuid": "1a27a453-a927-4d54-a862-d1904ccaf2bf",
-      "width": 0,
-      "x": -558,
-      "y": 767,
-      "zOrder": 1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "metal2",
-      "persistentUuid": "2b81a642-f2dd-45e3-b2e4-c34cc2316b0c",
-      "width": 0,
-      "x": -462,
-      "y": 751,
-      "zOrder": 1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "metal3",
-      "persistentUuid": "dbc4caab-b467-4106-be64-ffb8818a0dcb",
-      "width": 0,
-      "x": -366,
-      "y": 735,
-      "zOrder": 1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
       "customSize": true,
       "height": 6,
       "layer": "HUD",
       "name": "hud_whiteline",
       "persistentUuid": "70e28c3d-59ec-4ffe-b75c-b0008f6c47b7",
-      "width": 274,
+      "width": 289,
       "x": 34,
       "y": 733,
       "zOrder": 1,
@@ -632,8 +449,8 @@
       "layer": "HUD",
       "name": "hud_whiteline",
       "persistentUuid": "56d0a291-8eb3-43fe-9243-cccf94160f55",
-      "width": 259,
-      "x": 733,
+      "width": 243,
+      "x": 749,
       "y": 733,
       "zOrder": 1,
       "numberProperties": [],
@@ -688,13 +505,73 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 150,
-      "layer": "",
-      "name": "drop_glass",
-      "persistentUuid": "dff72f4a-4a38-4860-a7ba-a0dd12686cce",
-      "width": 80,
-      "x": -797,
-      "y": -356,
+      "height": 175,
+      "layer": "Border",
+      "name": "gradient",
+      "persistentUuid": "33e4e565-1a98-44da-998b-08f3f9931cce",
+      "width": 173,
+      "x": 0,
+      "y": 0,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 90,
+      "customSize": true,
+      "height": 175,
+      "layer": "Border",
+      "name": "gradient",
+      "persistentUuid": "ee20f891-5aaa-42cc-ac2c-1ab216c140af",
+      "width": 173,
+      "x": 850,
+      "y": -1,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 180,
+      "customSize": true,
+      "height": 175,
+      "layer": "Border",
+      "name": "gradient",
+      "persistentUuid": "2f0094ed-fc1b-4016-bbfc-4b4a3866f050",
+      "width": 173,
+      "x": 851,
+      "y": 593,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 270,
+      "customSize": true,
+      "height": 175,
+      "layer": "Border",
+      "name": "gradient",
+      "persistentUuid": "12650b1d-ed12-48a5-840d-3ce03a5bd257",
+      "width": 173,
+      "x": 1,
+      "y": 594,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Transition",
+      "name": "transition",
+      "persistentUuid": "67d22bfd-6921-4533-883b-5316b1533ebc",
+      "width": 0,
+      "x": 967,
+      "y": -91,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -703,14 +580,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 150,
-      "layer": "",
-      "name": "drop_plastic",
-      "persistentUuid": "36d2b9db-9797-4d70-a7b8-24083d672399",
-      "width": 80,
-      "x": -590,
-      "y": -356,
-      "zOrder": 1,
+      "height": 768,
+      "layer": "Background",
+      "name": "foreground",
+      "persistentUuid": "70a5acfc-e446-4e65-af2c-6b3bc03d1d26",
+      "width": 1024,
+      "x": 0,
+      "y": 0,
+      "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -718,14 +595,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 150,
-      "layer": "",
-      "name": "drop_paper",
-      "persistentUuid": "55e181dd-c90b-4dd0-83c3-44840d4b8f0b",
-      "width": 80,
-      "x": -354,
-      "y": -356,
-      "zOrder": 1,
+      "height": 768,
+      "layer": "Background",
+      "name": "background",
+      "persistentUuid": "79260ef5-7541-4dce-b83d-3df60fc18a26",
+      "width": 1024,
+      "x": 0,
+      "y": 0,
+      "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -733,14 +610,59 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 150,
+      "height": 57,
       "layer": "",
-      "name": "drop_metal",
-      "persistentUuid": "5534cd8c-7ad1-4d15-9157-dc9c0df70417",
-      "width": 80,
-      "x": -134,
-      "y": -356,
-      "zOrder": 1,
+      "name": "void_color",
+      "persistentUuid": "acdf23a4-1bda-4d86-a523-d3019b10056f",
+      "width": 10316,
+      "x": -5086,
+      "y": 5071,
+      "zOrder": 9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 10222,
+      "layer": "",
+      "name": "void_color",
+      "persistentUuid": "6cfacf71-612b-444b-ba03-b0f165ecaabf",
+      "width": 57,
+      "x": -5100,
+      "y": -5100,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 10172,
+      "layer": "",
+      "name": "void_color",
+      "persistentUuid": "dd0968f4-c3c4-4977-bdab-e4a3005b4a89",
+      "width": 71,
+      "x": 5157,
+      "y": -5100,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 57,
+      "layer": "",
+      "name": "void_color",
+      "persistentUuid": "07e44fe1-4b29-4e61-9e61-5f99f61fabfe",
+      "width": 10322,
+      "x": -5100,
+      "y": -5100,
+      "zOrder": 9,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -795,10 +717,32 @@
           "name": "paper",
           "type": "number",
           "value": 0
+        },
+        {
+          "folded": true,
+          "name": "collected",
+          "type": "number",
+          "value": 0
         }
       ],
       "effects": [],
       "behaviors": [
+        {
+          "name": "EllipseMovement",
+          "type": "EllipseMovement::EllipseMovement",
+          "RadiusX": 20,
+          "RadiusY": 20,
+          "LoopDuration": 6,
+          "InitialTurningLeft": false,
+          "InitialDirectionAngle": 0,
+          "ShouldRotate": false,
+          "RotationOffset": 0,
+          "CenterX": 0,
+          "CenterY": 0,
+          "MovementAngle": 0,
+          "OldX": 0,
+          "OldY": 0
+        },
         {
           "name": "Flash",
           "type": "Flash::Flash",
@@ -902,19 +846,19 @@
                     [
                       {
                         "x": 28,
-                        "y": 11.5
+                        "y": 13.5
                       },
                       {
                         "x": 58.5,
-                        "y": 11.5
+                        "y": 14
                       },
                       {
                         "x": 59,
-                        "y": 69
+                        "y": 66.5
                       },
                       {
                         "x": 28,
-                        "y": 69
+                        "y": 66.5
                       }
                     ]
                   ]
@@ -938,19 +882,19 @@
                     [
                       {
                         "x": 28,
-                        "y": 11.5
+                        "y": 13.5
                       },
                       {
                         "x": 58.5,
-                        "y": 11.5
+                        "y": 14
                       },
                       {
                         "x": 59,
-                        "y": 69
+                        "y": 66.5
                       },
                       {
                         "x": 28,
-                        "y": 69
+                        "y": 66.5
                       }
                     ]
                   ]
@@ -974,19 +918,19 @@
                     [
                       {
                         "x": 28,
-                        "y": 11.5
+                        "y": 13.5
                       },
                       {
                         "x": 58.5,
-                        "y": 11.5
+                        "y": 14
                       },
                       {
                         "x": 59,
-                        "y": 69
+                        "y": 66.5
                       },
                       {
                         "x": 28,
-                        "y": 69
+                        "y": 66.5
                       }
                     ]
                   ]
@@ -1010,19 +954,19 @@
                     [
                       {
                         "x": 28,
-                        "y": 11.5
+                        "y": 13.5
                       },
                       {
                         "x": 58.5,
-                        "y": 11.5
+                        "y": 14
                       },
                       {
                         "x": 59,
-                        "y": 69
+                        "y": 66.5
                       },
                       {
                         "x": 28,
-                        "y": 69
+                        "y": 66.5
                       }
                     ]
                   ]
@@ -1046,19 +990,19 @@
                     [
                       {
                         "x": 28,
-                        "y": 11.5
+                        "y": 13.5
                       },
                       {
                         "x": 58.5,
-                        "y": 11.5
+                        "y": 14
                       },
                       {
                         "x": 59,
-                        "y": 69
+                        "y": 66.5
                       },
                       {
                         "x": 28,
-                        "y": 69
+                        "y": 66.5
                       }
                     ]
                   ]
@@ -1082,19 +1026,19 @@
                     [
                       {
                         "x": 28,
-                        "y": 11.5
+                        "y": 13.5
                       },
                       {
                         "x": 58.5,
-                        "y": 11.5
+                        "y": 14
                       },
                       {
                         "x": 59,
-                        "y": 69
+                        "y": 66.5
                       },
                       {
                         "x": 28,
-                        "y": 69
+                        "y": 66.5
                       }
                     ]
                   ]
@@ -1129,20 +1073,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 13.5,
+                        "x": 15,
                         "y": 28
                       },
                       {
-                        "x": 65,
+                        "x": 63.5,
                         "y": 28
                       },
                       {
-                        "x": 65.5,
-                        "y": 55.5
+                        "x": 63.5,
+                        "y": 53.5
                       },
                       {
-                        "x": 13.5,
-                        "y": 55.5
+                        "x": 15,
+                        "y": 53.5
                       }
                     ]
                   ]
@@ -1165,20 +1109,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 13.5,
+                        "x": 15,
                         "y": 28
                       },
                       {
-                        "x": 65,
+                        "x": 63.5,
                         "y": 28
                       },
                       {
-                        "x": 65.5,
-                        "y": 55.5
+                        "x": 63.5,
+                        "y": 53.5
                       },
                       {
-                        "x": 13.5,
-                        "y": 55.5
+                        "x": 15,
+                        "y": 53.5
                       }
                     ]
                   ]
@@ -1201,20 +1145,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 13.5,
+                        "x": 15,
                         "y": 28
                       },
                       {
-                        "x": 65,
+                        "x": 63.5,
                         "y": 28
                       },
                       {
-                        "x": 65.5,
-                        "y": 55.5
+                        "x": 63.5,
+                        "y": 53.5
                       },
                       {
-                        "x": 13.5,
-                        "y": 55.5
+                        "x": 15,
+                        "y": 53.5
                       }
                     ]
                   ]
@@ -1237,20 +1181,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 13.5,
+                        "x": 15,
                         "y": 28
                       },
                       {
-                        "x": 65,
+                        "x": 63.5,
                         "y": 28
                       },
                       {
-                        "x": 65.5,
-                        "y": 55.5
+                        "x": 63.5,
+                        "y": 53.5
                       },
                       {
-                        "x": 13.5,
-                        "y": 55.5
+                        "x": 15,
+                        "y": 53.5
                       }
                     ]
                   ]
@@ -1273,20 +1217,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 13.5,
+                        "x": 15,
                         "y": 28
                       },
                       {
-                        "x": 65,
+                        "x": 63.5,
                         "y": 28
                       },
                       {
-                        "x": 65.5,
-                        "y": 55.5
+                        "x": 63.5,
+                        "y": 53.5
                       },
                       {
-                        "x": 13.5,
-                        "y": 55.5
+                        "x": 15,
+                        "y": 53.5
                       }
                     ]
                   ]
@@ -1309,20 +1253,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 13.5,
+                        "x": 15,
                         "y": 28
                       },
                       {
-                        "x": 65,
+                        "x": 63.5,
                         "y": 28
                       },
                       {
-                        "x": 65.5,
-                        "y": 55.5
+                        "x": 63.5,
+                        "y": 53.5
                       },
                       {
-                        "x": 13.5,
-                        "y": 55.5
+                        "x": 15,
+                        "y": 53.5
                       }
                     ]
                   ]
@@ -1345,20 +1289,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 13.5,
+                        "x": 15,
                         "y": 28
                       },
                       {
-                        "x": 65,
+                        "x": 63.5,
                         "y": 28
                       },
                       {
-                        "x": 65.5,
-                        "y": 55.5
+                        "x": 63.5,
+                        "y": 53.5
                       },
                       {
-                        "x": 13.5,
-                        "y": 55.5
+                        "x": 15,
+                        "y": 53.5
                       }
                     ]
                   ]
@@ -1570,7 +1514,7 @@
     },
     {
       "assetStoreId": "",
-      "name": "bomb_small",
+      "name": "bomb1",
       "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
@@ -2039,7 +1983,7 @@
     },
     {
       "assetStoreId": "",
-      "name": "bomb_normal",
+      "name": "bomb2",
       "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
@@ -2508,7 +2452,7 @@
     },
     {
       "assetStoreId": "",
-      "name": "bomb_big",
+      "name": "bomb3",
       "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
@@ -2977,13 +2921,30 @@
     },
     {
       "assetStoreId": "",
-      "name": "enemy_bigfish",
+      "name": "enemy1",
       "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "EllipseMovement",
+          "type": "EllipseMovement::EllipseMovement",
+          "RadiusX": 100,
+          "RadiusY": 5,
+          "LoopDuration": 5,
+          "InitialTurningLeft": false,
+          "InitialDirectionAngle": 0,
+          "ShouldRotate": false,
+          "RotationOffset": 0,
+          "CenterX": 0,
+          "CenterY": 0,
+          "MovementAngle": 0,
+          "OldX": 0,
+          "OldY": 0
+        }
+      ],
       "animations": [
         {
           "name": "",
@@ -3145,13 +3106,30 @@
     },
     {
       "assetStoreId": "",
-      "name": "enemy_piranha",
+      "name": "enemy2",
       "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "EllipseMovement",
+          "type": "EllipseMovement::EllipseMovement",
+          "RadiusX": 10,
+          "RadiusY": 5,
+          "LoopDuration": 5,
+          "InitialTurningLeft": false,
+          "InitialDirectionAngle": 0,
+          "ShouldRotate": false,
+          "RotationOffset": 0,
+          "CenterX": 0,
+          "CenterY": 0,
+          "MovementAngle": 0,
+          "OldX": 0,
+          "OldY": 0
+        }
+      ],
       "animations": [
         {
           "name": "",
@@ -3314,13 +3292,30 @@
     },
     {
       "assetStoreId": "",
-      "name": "enemy_hornet",
+      "name": "enemy3",
       "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "EllipseMovement",
+          "type": "EllipseMovement::EllipseMovement",
+          "RadiusX": 10,
+          "RadiusY": 5,
+          "LoopDuration": 5,
+          "InitialTurningLeft": false,
+          "InitialDirectionAngle": 0,
+          "ShouldRotate": false,
+          "RotationOffset": 0,
+          "CenterX": 0,
+          "CenterY": 0,
+          "MovementAngle": 0,
+          "OldX": 0,
+          "OldY": 0
+        }
+      ],
       "animations": [
         {
           "name": "normal",
@@ -3887,7 +3882,7 @@
       "effects": [],
       "behaviors": [],
       "content": {
-        "text": "[b]Paper[/b]\n0 / 0",
+        "text": "[b]Paper[/b]\n0",
         "opacity": 255,
         "fontSize": 24,
         "visible": true,
@@ -3906,7 +3901,7 @@
       "effects": [],
       "behaviors": [],
       "content": {
-        "text": "[b]Plastic[/b]\n0 / 0",
+        "text": "[b]Plastic[/b]\n0",
         "opacity": 255,
         "fontSize": 24,
         "visible": true,
@@ -3925,7 +3920,7 @@
       "effects": [],
       "behaviors": [],
       "content": {
-        "text": "[b]Glass[/b]\n0 / 0",
+        "text": "[b]Glass[/b]\n0",
         "opacity": 255,
         "fontSize": 24,
         "visible": true,
@@ -3944,7 +3939,7 @@
       "effects": [],
       "behaviors": [],
       "content": {
-        "text": "[b]Metal[/b]\n0 / 0",
+        "text": "[b]Metal[/b]\n0",
         "opacity": 255,
         "fontSize": 24,
         "visible": true,
@@ -3963,7 +3958,7 @@
       "effects": [],
       "behaviors": [],
       "content": {
-        "text": "Quit Game ([b]Esc[/b]) | Reset Level ([b]F1[/b])",
+        "text": "Move ([b]Arrow Keys[/b])\nQuit Game ([b]Esc[/b]) - Reset Level ([b]F1[/b])",
         "opacity": 255,
         "fontSize": 24,
         "visible": true,
@@ -4035,37 +4030,13 @@
     },
     {
       "assetStoreId": "",
-      "name": "hud_oxygentank",
+      "name": "weed1",
       "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [
-        {
-          "name": "Physics2",
-          "type": "Physics2::Physics2Behavior",
-          "bodyType": "Static",
-          "bullet": false,
-          "fixedRotation": false,
-          "canSleep": true,
-          "shape": "Box",
-          "shapeDimensionA": 0,
-          "shapeDimensionB": 0,
-          "shapeOffsetX": 0,
-          "shapeOffsetY": 0,
-          "polygonOrigin": "Center",
-          "vertices": [],
-          "density": 1,
-          "friction": 0.3,
-          "restitution": 0.1,
-          "linearDamping": 0.1,
-          "angularDamping": 0.1,
-          "gravityScale": 1,
-          "layers": 1,
-          "masks": 1
-        }
-      ],
+      "behaviors": [],
       "animations": [
         {
           "name": "",
@@ -4077,7 +4048,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\hud_bar\\OxygenTank.png",
+                  "image": "props\\weed1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4100,6 +4071,100 @@
     },
     {
       "assetStoreId": "",
+      "name": "weed2",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "props\\weed2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "weed3",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "props\\weed3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "height": 128,
+      "name": "void_color",
+      "tags": "",
+      "texture": "tiles\\void.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 128,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
       "name": "glass1",
       "tags": "",
       "type": "Sprite",
@@ -4107,6 +4172,22 @@
       "variables": [],
       "effects": [],
       "behaviors": [
+        {
+          "name": "EllipseMovement",
+          "type": "EllipseMovement::EllipseMovement",
+          "RadiusX": 10,
+          "RadiusY": 10,
+          "LoopDuration": 6,
+          "InitialTurningLeft": false,
+          "InitialDirectionAngle": 0,
+          "ShouldRotate": false,
+          "RotationOffset": 0,
+          "CenterX": 0,
+          "CenterY": 0,
+          "MovementAngle": 0,
+          "OldX": 0,
+          "OldY": 0
+        },
         {
           "name": "Physics2",
           "type": "Physics2::Physics2Behavior",
@@ -4173,6 +4254,22 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "EllipseMovement",
+          "type": "EllipseMovement::EllipseMovement",
+          "RadiusX": 10,
+          "RadiusY": 10,
+          "LoopDuration": 6,
+          "InitialTurningLeft": false,
+          "InitialDirectionAngle": 0,
+          "ShouldRotate": false,
+          "RotationOffset": 0,
+          "CenterX": 0,
+          "CenterY": 0,
+          "MovementAngle": 0,
+          "OldX": 0,
+          "OldY": 0
+        },
+        {
           "name": "Physics2",
           "type": "Physics2::Physics2Behavior",
           "bodyType": "Static",
@@ -4237,6 +4334,22 @@
       "variables": [],
       "effects": [],
       "behaviors": [
+        {
+          "name": "EllipseMovement",
+          "type": "EllipseMovement::EllipseMovement",
+          "RadiusX": 10,
+          "RadiusY": 10,
+          "LoopDuration": 6,
+          "InitialTurningLeft": false,
+          "InitialDirectionAngle": 0,
+          "ShouldRotate": false,
+          "RotationOffset": 0,
+          "CenterX": 0,
+          "CenterY": 0,
+          "MovementAngle": 0,
+          "OldX": 0,
+          "OldY": 0
+        },
         {
           "name": "Physics2",
           "type": "Physics2::Physics2Behavior",
@@ -4303,6 +4416,22 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "EllipseMovement",
+          "type": "EllipseMovement::EllipseMovement",
+          "RadiusX": 10,
+          "RadiusY": 10,
+          "LoopDuration": 6,
+          "InitialTurningLeft": false,
+          "InitialDirectionAngle": 0,
+          "ShouldRotate": false,
+          "RotationOffset": 0,
+          "CenterX": 0,
+          "CenterY": 0,
+          "MovementAngle": 0,
+          "OldX": 0,
+          "OldY": 0
+        },
+        {
           "name": "Physics2",
           "type": "Physics2::Physics2Behavior",
           "bodyType": "Static",
@@ -4367,6 +4496,22 @@
       "variables": [],
       "effects": [],
       "behaviors": [
+        {
+          "name": "EllipseMovement",
+          "type": "EllipseMovement::EllipseMovement",
+          "RadiusX": 10,
+          "RadiusY": 10,
+          "LoopDuration": 6,
+          "InitialTurningLeft": false,
+          "InitialDirectionAngle": 0,
+          "ShouldRotate": false,
+          "RotationOffset": 0,
+          "CenterX": 0,
+          "CenterY": 0,
+          "MovementAngle": 0,
+          "OldX": 0,
+          "OldY": 0
+        },
         {
           "name": "Physics2",
           "type": "Physics2::Physics2Behavior",
@@ -4433,6 +4578,22 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "EllipseMovement",
+          "type": "EllipseMovement::EllipseMovement",
+          "RadiusX": 10,
+          "RadiusY": 10,
+          "LoopDuration": 6,
+          "InitialTurningLeft": false,
+          "InitialDirectionAngle": 0,
+          "ShouldRotate": false,
+          "RotationOffset": 0,
+          "CenterX": 0,
+          "CenterY": 0,
+          "MovementAngle": 0,
+          "OldX": 0,
+          "OldY": 0
+        },
+        {
           "name": "Physics2",
           "type": "Physics2::Physics2Behavior",
           "bodyType": "Static",
@@ -4497,6 +4658,22 @@
       "variables": [],
       "effects": [],
       "behaviors": [
+        {
+          "name": "EllipseMovement",
+          "type": "EllipseMovement::EllipseMovement",
+          "RadiusX": 10,
+          "RadiusY": 10,
+          "LoopDuration": 6,
+          "InitialTurningLeft": false,
+          "InitialDirectionAngle": 0,
+          "ShouldRotate": false,
+          "RotationOffset": 0,
+          "CenterX": 0,
+          "CenterY": 0,
+          "MovementAngle": 0,
+          "OldX": 0,
+          "OldY": 0
+        },
         {
           "name": "Physics2",
           "type": "Physics2::Physics2Behavior",
@@ -4563,6 +4740,22 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "EllipseMovement",
+          "type": "EllipseMovement::EllipseMovement",
+          "RadiusX": 10,
+          "RadiusY": 10,
+          "LoopDuration": 6,
+          "InitialTurningLeft": false,
+          "InitialDirectionAngle": 0,
+          "ShouldRotate": false,
+          "RotationOffset": 0,
+          "CenterX": 0,
+          "CenterY": 0,
+          "MovementAngle": 0,
+          "OldX": 0,
+          "OldY": 0
+        },
+        {
           "name": "Physics2",
           "type": "Physics2::Physics2Behavior",
           "bodyType": "Static",
@@ -4627,6 +4820,22 @@
       "variables": [],
       "effects": [],
       "behaviors": [
+        {
+          "name": "EllipseMovement",
+          "type": "EllipseMovement::EllipseMovement",
+          "RadiusX": 10,
+          "RadiusY": 10,
+          "LoopDuration": 6,
+          "InitialTurningLeft": false,
+          "InitialDirectionAngle": 0,
+          "ShouldRotate": false,
+          "RotationOffset": 0,
+          "CenterX": 0,
+          "CenterY": 0,
+          "MovementAngle": 0,
+          "OldX": 0,
+          "OldY": 0
+        },
         {
           "name": "Physics2",
           "type": "Physics2::Physics2Behavior",
@@ -4693,6 +4902,22 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "EllipseMovement",
+          "type": "EllipseMovement::EllipseMovement",
+          "RadiusX": 10,
+          "RadiusY": 10,
+          "LoopDuration": 6,
+          "InitialTurningLeft": false,
+          "InitialDirectionAngle": 0,
+          "ShouldRotate": false,
+          "RotationOffset": 0,
+          "CenterX": 0,
+          "CenterY": 0,
+          "MovementAngle": 0,
+          "OldX": 0,
+          "OldY": 0
+        },
+        {
           "name": "Physics2",
           "type": "Physics2::Physics2Behavior",
           "bodyType": "Static",
@@ -4757,6 +4982,22 @@
       "variables": [],
       "effects": [],
       "behaviors": [
+        {
+          "name": "EllipseMovement",
+          "type": "EllipseMovement::EllipseMovement",
+          "RadiusX": 10,
+          "RadiusY": 10,
+          "LoopDuration": 6,
+          "InitialTurningLeft": false,
+          "InitialDirectionAngle": 0,
+          "ShouldRotate": false,
+          "RotationOffset": 0,
+          "CenterX": 0,
+          "CenterY": 0,
+          "MovementAngle": 0,
+          "OldX": 0,
+          "OldY": 0
+        },
         {
           "name": "Physics2",
           "type": "Physics2::Physics2Behavior",
@@ -4823,6 +5064,22 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "EllipseMovement",
+          "type": "EllipseMovement::EllipseMovement",
+          "RadiusX": 10,
+          "RadiusY": 10,
+          "LoopDuration": 6,
+          "InitialTurningLeft": false,
+          "InitialDirectionAngle": 0,
+          "ShouldRotate": false,
+          "RotationOffset": 0,
+          "CenterX": 0,
+          "CenterY": 0,
+          "MovementAngle": 0,
+          "OldX": 0,
+          "OldY": 0
+        },
+        {
           "name": "Physics2",
           "type": "Physics2::Physics2Behavior",
           "bodyType": "Static",
@@ -4877,6 +5134,180 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "height": 128,
+      "name": "background",
+      "tags": "",
+      "texture": "background\\background.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 128,
+      "variables": [],
+      "effects": [
+        {
+          "effectType": "Godray",
+          "name": "Effect",
+          "doubleParameters": {
+            "angle": 30,
+            "animationSpeed": 0.5,
+            "gain": 0.5,
+            "lacunarity": 2.5,
+            "light": 30,
+            "padding": 0,
+            "x": 100,
+            "y": 100
+          },
+          "stringParameters": {},
+          "booleanParameters": {
+            "parallel": true
+          }
+        }
+      ],
+      "behaviors": [
+        {
+          "name": "HorizontalTiledSpriteParallax",
+          "type": "Parallax::HorizontalTiledSpriteParallax",
+          "ParallaxFactor": 0.5,
+          "FollowedLayer": ""
+        },
+        {
+          "name": "VerticalTiledSpriteParallax",
+          "type": "Parallax::VerticalTiledSpriteParallax",
+          "ParallaxFactor": 0.5,
+          "FollowedLayer": ""
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "height": 768,
+      "name": "foreground",
+      "tags": "",
+      "texture": "background\\foreground.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 1440,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "HorizontalTiledSpriteParallax",
+          "type": "Parallax::HorizontalTiledSpriteParallax",
+          "ParallaxFactor": 0.7,
+          "FollowedLayer": ""
+        },
+        {
+          "name": "VerticalTiledSpriteParallax",
+          "type": "Parallax::VerticalTiledSpriteParallax",
+          "ParallaxFactor": 0.7,
+          "FollowedLayer": ""
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "gradient",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\hud_bar\\Gradient.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "floor_chain",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "tiles\\floor-chain.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0.5,
+                        "y": 16.5
+                      },
+                      {
+                        "x": 181,
+                        "y": 16.5
+                      },
+                      {
+                        "x": 145.5,
+                        "y": 72
+                      },
+                      {
+                        "x": 87.5,
+                        "y": 110
+                      },
+                      {
+                        "x": 34,
+                        "y": 72
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "events": [
@@ -4886,6 +5317,13 @@
         "includeConfig": 0
       },
       "target": "red_tint_fix"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "oxygen_health"
     },
     {
       "type": "BuiltinCommonInstructions::Link",
@@ -4941,10 +5379,102 @@
       "include": {
         "includeConfig": 0
       },
-      "target": "oxygen_health"
+      "target": "spawn_point"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "level_complete"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "FlashTransitionPainter::FlashTransitionPainter::PaintEffect"
+          },
+          "parameters": [
+            "transition",
+            "FlashTransitionPainter",
+            "\"0;0;0\"",
+            "0.5",
+            "\"Flash\"",
+            "\"Backward\"",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "CameraShake::SetLayerShakable"
+          },
+          "parameters": [
+            "",
+            "",
+            "\"HUD\"",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "CameraShake::SetLayerShakable"
+          },
+          "parameters": [
+            "",
+            "no",
+            "\"Border\"",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "CameraShake::SetLayerShakable"
+          },
+          "parameters": [
+            "",
+            "no",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "CameraShake::SetLayerShakable"
+          },
+          "parameters": [
+            "",
+            "no",
+            "\"Transition\"",
+            ""
+          ]
+        }
+      ]
     }
   ],
   "layers": [
+    {
+      "ambientLightColorB": 11078352,
+      "ambientLightColorG": 6069792,
+      "ambientLightColorR": 12589800,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "Background",
+      "visibility": true,
+      "cameras": [],
+      "effects": []
+    },
     {
       "ambientLightColorB": 0,
       "ambientLightColorG": 8071752,
@@ -4968,6 +5498,17 @@
       "effects": []
     },
     {
+      "ambientLightColorB": 28,
+      "ambientLightColorG": 6069792,
+      "ambientLightColorR": 13014200,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "Border",
+      "visibility": true,
+      "cameras": [],
+      "effects": []
+    },
+    {
       "ambientLightColorB": 150995058,
       "ambientLightColorG": 6069792,
       "ambientLightColorR": 12177528,
@@ -4977,12 +5518,35 @@
       "visibility": true,
       "cameras": [],
       "effects": []
+    },
+    {
+      "ambientLightColorB": 14364016,
+      "ambientLightColorG": 6069792,
+      "ambientLightColorR": 15735952,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "Transition",
+      "visibility": true,
+      "cameras": [],
+      "effects": []
     }
   ],
   "behaviorsSharedData": [
     {
+      "name": "EllipseMovement",
+      "type": "EllipseMovement::EllipseMovement"
+    },
+    {
       "name": "Flash",
       "type": "Flash::Flash"
+    },
+    {
+      "name": "FlashTransitionPainter",
+      "type": "FlashTransitionPainter::FlashTransitionPainter"
+    },
+    {
+      "name": "HorizontalTiledSpriteParallax",
+      "type": "Parallax::HorizontalTiledSpriteParallax"
     },
     {
       "name": "Physics2",
@@ -4999,6 +5563,10 @@
     {
       "name": "TopDownMovement",
       "type": "TopDownMovementBehavior::TopDownMovementBehavior"
+    },
+    {
+      "name": "VerticalTiledSpriteParallax",
+      "type": "Parallax::VerticalTiledSpriteParallax"
     }
   ]
 }

@@ -25,7 +25,7 @@
           },
           "parameters": [
             "player_sprite",
-            "enemy_bigfish",
+            "enemy1",
             "",
             "",
             ""
@@ -39,6 +39,41 @@
         }
       ],
       "actions": [
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "sound\\enemy.wav",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarObjet"
+          },
+          "parameters": [
+            "player_sprite",
+            "health",
+            "-",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "CameraShake::ShakeCamera"
+          },
+          "parameters": [
+            "",
+            ".5",
+            "0",
+            "0",
+            ""
+          ]
+        },
         {
           "type": {
             "value": "Flash::Flash::Flash"
@@ -74,9 +109,20 @@
           },
           "parameters": [
             "player_sprite",
-            "enemy_piranha",
+            "enemy2",
             "",
             "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "RepeatEveryXSeconds::Repeat"
+          },
+          "parameters": [
+            "",
+            "\"piranha\"",
+            ".75",
             ""
           ]
         },
@@ -90,6 +136,18 @@
       "actions": [
         {
           "type": {
+            "value": "CameraShake::ShakeCamera"
+          },
+          "parameters": [
+            "",
+            ".5",
+            "0",
+            "0",
+            ""
+          ]
+        },
+        {
+          "type": {
             "value": "Flash::Flash::Flash"
           },
           "parameters": [
@@ -97,6 +155,78 @@
             "Flash",
             "1.5",
             "3"
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarObjet"
+          },
+          "parameters": [
+            "player_sprite",
+            "health",
+            "-",
+            "1"
+          ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarObjet"
+              },
+              "parameters": [
+                "player_sprite",
+                "health",
+                ">=",
+                "0"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "sound\\enemy.wav",
+                "",
+                "",
+                ""
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "Distance"
+          },
+          "parameters": [
+            "player_sprite",
+            "enemy2",
+            "300",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AddForceVers"
+          },
+          "parameters": [
+            "enemy2",
+            "player_sprite",
+            "100",
+            ""
           ]
         }
       ]
@@ -123,7 +253,7 @@
           },
           "parameters": [
             "player_sprite",
-            "enemy_hornet",
+            "enemy3",
             "",
             "",
             ""
@@ -139,6 +269,30 @@
       "actions": [
         {
           "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "sound\\enemy.wav",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "CameraShake::ShakeCamera"
+          },
+          "parameters": [
+            "",
+            ".5",
+            "0",
+            "0",
+            ""
+          ]
+        },
+        {
+          "type": {
             "value": "Flash::Flash::Flash"
           },
           "parameters": [
@@ -150,10 +304,21 @@
         },
         {
           "type": {
+            "value": "ModVarObjet"
+          },
+          "parameters": [
+            "player_sprite",
+            "health",
+            "-",
+            "1"
+          ]
+        },
+        {
+          "type": {
             "value": "SetAnimationName"
           },
           "parameters": [
-            "enemy_hornet",
+            "enemy3",
             "\"explode\""
           ]
         },
@@ -162,7 +327,7 @@
             "value": "PlayAnimation"
           },
           "parameters": [
-            "enemy_hornet"
+            "enemy3"
           ]
         }
       ]
@@ -172,10 +337,44 @@
       "conditions": [
         {
           "type": {
+            "value": "Distance"
+          },
+          "parameters": [
+            "player_sprite",
+            "enemy3",
+            "300",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AddForceVers"
+          },
+          "parameters": [
+            "enemy3",
+            "player_sprite",
+            "100",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
             "value": "AnimationName"
           },
           "parameters": [
-            "enemy_hornet",
+            "enemy3",
             "\"explode\""
           ]
         },
@@ -184,7 +383,7 @@
             "value": "AnimationEnded2"
           },
           "parameters": [
-            "enemy_hornet"
+            "enemy3"
           ]
         }
       ],
@@ -194,7 +393,7 @@
             "value": "Delete"
           },
           "parameters": [
-            "enemy_hornet",
+            "enemy3",
             ""
           ]
         }

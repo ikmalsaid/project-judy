@@ -9,7 +9,7 @@
   "title": "",
   "v": 51,
   "uiSettings": {
-    "grid": true,
+    "grid": false,
     "gridType": "rectangular",
     "gridWidth": 16,
     "gridHeight": 16,
@@ -17,8 +17,8 @@
     "gridOffsetY": 0,
     "gridColor": 10401023,
     "gridAlpha": 0.2,
-    "snap": true,
-    "zoomFactor": 0.6672773998329988,
+    "snap": false,
+    "zoomFactor": 0.584378441074095,
     "windowMask": false
   },
   "objectsGroups": [
@@ -126,6 +126,10 @@
           "name": "drop_metal"
         }
       ]
+    },
+    {
+      "name": "Group",
+      "objects": []
     }
   ],
   "variables": [],
@@ -134,13 +138,13 @@
       "angle": 0,
       "customSize": true,
       "height": 36,
-      "layer": "HUD",
+      "layer": "",
       "name": "hud_resetgame",
       "persistentUuid": "c760dcff-f7a8-4ce3-883b-311753c97b50",
       "width": 558,
       "x": 241,
       "y": 714,
-      "zOrder": 1,
+      "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -149,13 +153,13 @@
       "angle": 0,
       "customSize": true,
       "height": 6,
-      "layer": "HUD",
+      "layer": "",
       "name": "hud_whiteline",
       "persistentUuid": "70e28c3d-59ec-4ffe-b75c-b0008f6c47b7",
       "width": 200,
       "x": 33,
       "y": 733,
-      "zOrder": 1,
+      "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -164,13 +168,13 @@
       "angle": 90,
       "customSize": true,
       "height": 6,
-      "layer": "HUD",
+      "layer": "",
       "name": "hud_whiteline",
       "persistentUuid": "f41a837e-ffe2-498d-a158-319773842bbc",
-      "width": 705,
-      "x": -317,
-      "y": 382,
-      "zOrder": 1,
+      "width": 698,
+      "x": -313,
+      "y": 386,
+      "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -179,13 +183,13 @@
       "angle": 0,
       "customSize": true,
       "height": 6,
-      "layer": "HUD",
+      "layer": "",
       "name": "hud_whiteline",
       "persistentUuid": "f3dc255f-1f78-4344-b124-b1060dc42d45",
       "width": 959,
       "x": 33,
-      "y": 32,
-      "zOrder": 1,
+      "y": 40,
+      "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -194,13 +198,13 @@
       "angle": 0,
       "customSize": true,
       "height": 6,
-      "layer": "HUD",
+      "layer": "",
       "name": "hud_whiteline",
       "persistentUuid": "56d0a291-8eb3-43fe-9243-cccf94160f55",
       "width": 189,
       "x": 803,
       "y": 733,
-      "zOrder": 1,
+      "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -209,28 +213,13 @@
       "angle": 90,
       "customSize": true,
       "height": 6,
-      "layer": "HUD",
+      "layer": "",
       "name": "hud_whiteline",
       "persistentUuid": "c48ebb61-d26f-432b-8dc6-078f405cc643",
-      "width": 218,
-      "x": 880,
-      "y": 627,
-      "zOrder": 1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 90,
-      "customSize": true,
-      "height": 6,
-      "layer": "HUD",
-      "name": "hud_whiteline",
-      "persistentUuid": "152dbcdd-75f6-4ae6-a258-30f98af1d51c",
-      "width": 506,
-      "x": 736,
-      "y": 284,
-      "zOrder": 1,
+      "width": 698,
+      "x": 640,
+      "y": 387,
+      "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -273,12 +262,12 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 928,
+      "height": 872,
       "layer": "",
       "name": "foreground",
       "persistentUuid": "2179824c-81d6-461f-85a8-30e7165184f6",
-      "width": 1440,
-      "x": -186,
+      "width": 1120,
+      "x": -47,
       "y": -74,
       "zOrder": 1,
       "numberProperties": [],
@@ -295,7 +284,7 @@
       "width": 173,
       "x": 1,
       "y": 594,
-      "zOrder": 4,
+      "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -310,7 +299,7 @@
       "width": 173,
       "x": 0,
       "y": 0,
-      "zOrder": 4,
+      "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -325,7 +314,7 @@
       "width": 173,
       "x": 850,
       "y": -1,
-      "zOrder": 4,
+      "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -340,7 +329,67 @@
       "width": 173,
       "x": 851,
       "y": 593,
-      "zOrder": 4,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 179,
+      "layer": "",
+      "name": "hud_htext",
+      "persistentUuid": "d4be4dea-50f6-43ee-8a3e-426ebee54842",
+      "width": 919,
+      "x": 52,
+      "y": 50,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 46,
+      "layer": "",
+      "name": "hud_otext",
+      "persistentUuid": "64408d0b-7a1f-4d67-a88a-7b500c67f133",
+      "width": 346,
+      "x": 349,
+      "y": 580,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "transition",
+      "persistentUuid": "1e66ac7f-a6f7-4164-bce1-c9de8564d531",
+      "width": 0,
+      "x": 994,
+      "y": 895,
+      "zOrder": 99,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 33,
+      "layer": "",
+      "name": "hud_otext2",
+      "persistentUuid": "9b0f6108-619b-47d9-964b-4c3d80b9ba57",
+      "width": 399,
+      "x": 321,
+      "y": 623,
+      "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1112,7 +1161,7 @@
     },
     {
       "assetStoreId": "",
-      "name": "bomb_small",
+      "name": "bomb1",
       "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
@@ -1581,7 +1630,7 @@
     },
     {
       "assetStoreId": "",
-      "name": "bomb_normal",
+      "name": "bomb2",
       "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
@@ -2050,7 +2099,7 @@
     },
     {
       "assetStoreId": "",
-      "name": "bomb_big",
+      "name": "bomb3",
       "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
@@ -2519,7 +2568,7 @@
     },
     {
       "assetStoreId": "",
-      "name": "enemy_bigfish",
+      "name": "enemy1",
       "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
@@ -2687,7 +2736,7 @@
     },
     {
       "assetStoreId": "",
-      "name": "enemy_piranha",
+      "name": "enemy2",
       "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
@@ -2856,7 +2905,7 @@
     },
     {
       "assetStoreId": "",
-      "name": "enemy_hornet",
+      "name": "enemy3",
       "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
@@ -3391,9 +3440,9 @@
       "effects": [],
       "behaviors": [],
       "content": {
-        "text": "[b]H[/b]",
+        "text": "[b]PROJECT JUDY[/b]",
         "opacity": 255,
-        "fontSize": 32,
+        "fontSize": 120,
         "visible": true,
         "color": "255;255;255",
         "fontFamily": "fonts\\MontserratRegular.otf",
@@ -3408,11 +3457,46 @@
       "type": "BBText::BBText",
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "Flash",
+          "type": "Flash::Flash",
+          "HalfPeriodTime": 1,
+          "IsFlashing": false,
+          "FlashDuration": 0
+        }
+      ],
       "content": {
-        "text": "[b]O[/b]",
+        "text": "PRESS [b]SPACE[/b] TO START",
         "opacity": 255,
-        "fontSize": 32,
+        "fontSize": 28,
+        "visible": true,
+        "color": "255;255;255",
+        "fontFamily": "fonts\\MontserratRegular.otf",
+        "align": "left",
+        "wordWrap": true
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "hud_otext2",
+      "tags": "",
+      "type": "BBText::BBText",
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Flash",
+          "type": "Flash::Flash",
+          "HalfPeriodTime": 0.5,
+          "IsFlashing": false,
+          "FlashDuration": 0
+        }
+      ],
+      "content": {
+        "text": "(Game Instructions Available on Official Game Page)",
+        "opacity": 255,
+        "fontSize": 15,
         "visible": true,
         "color": "255;255;255",
         "fontFamily": "fonts\\MontserratRegular.otf",
@@ -4522,6 +4606,41 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "transition",
+      "tags": "",
+      "type": "PrimitiveDrawing::Drawer",
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "FlashTransitionPainter",
+          "type": "FlashTransitionPainter::FlashTransitionPainter",
+          "Timer": 1,
+          "Color": "255;255;255",
+          "Type": "",
+          "Direction": "",
+          "MaxOpacity": 255
+        }
+      ],
+      "fillOpacity": 255,
+      "outlineSize": 1,
+      "outlineOpacity": 255,
+      "fillColor": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      },
+      "outlineColor": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "absoluteCoordinates": false,
+      "clearBetweenFrames": true,
+      "antialiasing": "none"
     }
   ],
   "events": [
@@ -4547,6 +4666,133 @@
             "foreground",
             "+",
             "0.5"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "KeyReleased"
+          },
+          "parameters": [
+            "",
+            "Space"
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "FlashTransitionPainter::FlashTransitionPainter::PaintEffect"
+          },
+          "parameters": [
+            "transition",
+            "FlashTransitionPainter",
+            "\"0;0;0\"",
+            "0.5",
+            "\"Circular\"",
+            "\"Forward\"",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "sound\\enter.wav",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "0.5"
+          ]
+        },
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"main\"",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PlayMusicCanal"
+          },
+          "parameters": [
+            "",
+            "music\\DifferentWorldBelow.ogg",
+            "100",
+            "yes",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "FlashTransitionPainter::FlashTransitionPainter::PaintEffect"
+          },
+          "parameters": [
+            "transition",
+            "FlashTransitionPainter",
+            "\"0;0;0\"",
+            "0.5",
+            "\"Flash\"",
+            "\"Backward\"",
+            "",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "Flash::Flash::Flash"
+          },
+          "parameters": [
+            "hud_otext",
+            "Flash",
+            "1",
+            ""
           ]
         }
       ]
@@ -4591,6 +4837,14 @@
     {
       "name": "EllipseMovement",
       "type": "EllipseMovement::EllipseMovement"
+    },
+    {
+      "name": "Flash",
+      "type": "Flash::Flash"
+    },
+    {
+      "name": "FlashTransitionPainter",
+      "type": "FlashTransitionPainter::FlashTransitionPainter"
     },
     {
       "name": "Physics2",

@@ -1,0 +1,288 @@
+{
+  "associatedLayout": "main",
+  "lastChangeTimeStamp": 0,
+  "name": "spawn_point",
+  "events": [
+    {
+      "type": "BuiltinCommonInstructions::Repeat",
+      "repeatExpression": "500",
+      "conditions": [
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "CreateByName"
+          },
+          "parameters": [
+            "",
+            "glass",
+            "\"glass\"+ToString(RandomInRange(1,3))",
+            "RandomInRange(-5000,5000)",
+            "RandomInRange(-5000,5000)",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Repeat",
+      "repeatExpression": "500",
+      "conditions": [
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "CreateByName"
+          },
+          "parameters": [
+            "",
+            "plastic",
+            "\"plastic\"+ToString(RandomInRange(1,3))",
+            "RandomInRange(-5000,5000)",
+            "RandomInRange(-5000,5000)",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Repeat",
+      "repeatExpression": "500",
+      "conditions": [
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "CreateByName"
+          },
+          "parameters": [
+            "",
+            "paper",
+            "\"paper\"+ToString(RandomInRange(1,3))",
+            "RandomInRange(-5000,5000)",
+            "RandomInRange(-5000,5000)",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Repeat",
+      "repeatExpression": "500",
+      "conditions": [
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "CreateByName"
+          },
+          "parameters": [
+            "",
+            "metal",
+            "\"metal\"+ToString(RandomInRange(1,3))",
+            "RandomInRange(-5000,5000)",
+            "RandomInRange(-5000,5000)",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Repeat",
+      "repeatExpression": "500",
+      "conditions": [
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "CreateByName"
+          },
+          "parameters": [
+            "",
+            "bomb",
+            "\"bomb\"+ToString(RandomInRange(1,3))",
+            "RandomInRange(-5000,5000)",
+            "RandomInRange(-5000,5000)",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Repeat",
+      "repeatExpression": "500",
+      "conditions": [
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "CreateByName"
+          },
+          "parameters": [
+            "",
+            "enemy",
+            "\"enemy\"+ToString(RandomInRange(1,3))",
+            "RandomInRange(-5000,5000)",
+            "RandomInRange(-5000,5000)",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ChangeScale"
+          },
+          "parameters": [
+            "enemy",
+            "*",
+            "RandomInRange(1,1.5)"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetAngle"
+          },
+          "parameters": [
+            "no_collide",
+            "=",
+            "RandomInRange(-20,20)"
+          ]
+        },
+        {
+          "type": {
+            "value": "SeparateFromObjects"
+          },
+          "parameters": [
+            "glass",
+            "no_collide",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SeparateFromObjects"
+          },
+          "parameters": [
+            "plastic",
+            "no_collide",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SeparateFromObjects"
+          },
+          "parameters": [
+            "paper",
+            "no_collide",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SeparateFromObjects"
+          },
+          "parameters": [
+            "metal",
+            "no_collide",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SeparateFromObjects"
+          },
+          "parameters": [
+            "bomb",
+            "no_collide",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SeparateFromObjects"
+          },
+          "parameters": [
+            "enemy",
+            "no_collide",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "SeparateFromObjects"
+          },
+          "parameters": [
+            "player_sprite",
+            "void_color",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "void_color"
+          ]
+        }
+      ]
+    }
+  ]
+}

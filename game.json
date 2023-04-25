@@ -1,5 +1,5 @@
 {
-  "firstLayout": "",
+  "firstLayout": "home",
   "gdVersion": {
     "build": 99,
     "major": 4,
@@ -32,7 +32,7 @@
       "backgroundColor": 0,
       "backgroundFadeInDuration": 0.2,
       "backgroundImageResourceName": "",
-      "gdevelopLogoStyle": "light",
+      "gdevelopLogoStyle": "light-colored",
       "logoAndProgressFadeInDuration": 0.2,
       "logoAndProgressLogoFadeInDelay": 0.2,
       "minDuration": 1.5,
@@ -42,11 +42,11 @@
       "progressBarMinWidth": 40,
       "progressBarWidthPercent": 30,
       "showGDevelopSplash": true,
-      "showProgressBar": true
+      "showProgressBar": false
     },
     "watermark": {
       "placement": "bottom-left",
-      "showWatermark": true
+      "showWatermark": false
     },
     "authorIds": [
       "6KhTpftJxca4kbgWFu11sytmVHo2"
@@ -855,11 +855,142 @@
         "name": "assets\\hud_bar\\Gradient.png",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "file": "music/DifferentWorldBelow.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "music\\DifferentWorldBelow.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "props/weed1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "props\\weed1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "props/weed2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "props\\weed2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "props/weed3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "props\\weed3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "tiles/floor-chain.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tiles\\floor-chain.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "sound/enter.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sound\\enter.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "sound/enemy.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sound\\enemy.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "sound/collect.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sound\\collect.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "sound/drop.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sound\\drop.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiles_void.png.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "tiles\\void.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
   },
-  "objects": [],
+  "objects": [
+    {
+      "assetStoreId": "",
+      "name": "transition",
+      "tags": "",
+      "type": "PrimitiveDrawing::Drawer",
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "FlashTransitionPainter",
+          "type": "FlashTransitionPainter::FlashTransitionPainter",
+          "Timer": 1,
+          "Color": "255;255;255",
+          "Type": "",
+          "Direction": "",
+          "MaxOpacity": 255
+        }
+      ],
+      "fillOpacity": 255,
+      "outlineSize": 1,
+      "outlineOpacity": 255,
+      "fillColor": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      },
+      "outlineColor": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "absoluteCoordinates": false,
+      "clearBetweenFrames": true,
+      "antialiasing": "none"
+    }
+  ],
   "objectsGroups": [],
   "variables": [
     {
@@ -885,6 +1016,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/home"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/result"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
@@ -931,9 +1066,25 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/externalEvents/oxygen_health"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/wall_collision"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/spawn_point"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/level_complete"
     }
   ],
   "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/flashtransitionpainter"
+    },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/repeateveryxseconds"

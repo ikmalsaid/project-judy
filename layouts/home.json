@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.2,
     "snap": false,
-    "zoomFactor": 0.584378441074095,
+    "zoomFactor": 0.9610368693714756,
     "windowMask": false
   },
   "objectsGroups": [
@@ -357,8 +357,8 @@
       "name": "hud_otext",
       "persistentUuid": "64408d0b-7a1f-4d67-a88a-7b500c67f133",
       "width": 346,
-      "x": 349,
-      "y": 580,
+      "x": 345,
+      "y": 510,
       "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
@@ -382,13 +382,13 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 33,
+      "height": 122,
       "layer": "",
       "name": "hud_otext2",
       "persistentUuid": "9b0f6108-619b-47d9-964b-4c3d80b9ba57",
-      "width": 399,
-      "x": 321,
-      "y": 623,
+      "width": 612,
+      "x": 211,
+      "y": 562,
       "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
@@ -3494,13 +3494,13 @@
         }
       ],
       "content": {
-        "text": "(Game Instructions Available on Official Game Page)",
+        "text": "[size=21][b]How to Play[/b][/size]\n\nTake a deep breath to explore and collect wastes to save the \nocean while surviving from the enemies, bombs and lack of oxygen.\nFor more information, please refer to the official game page.",
         "opacity": 255,
-        "fontSize": 15,
+        "fontSize": 18,
         "visible": true,
         "color": "255;255;255",
         "fontFamily": "fonts\\MontserratRegular.otf",
-        "align": "left",
+        "align": "center",
         "wordWrap": true
       }
     },

@@ -19,7 +19,7 @@
     "useExternalSourceFiles": false,
     "version": "1.0.0",
     "name": "PROJECT JUDY",
-    "description": "Plunge into a treacherous underwater realm.",
+    "description": "In PROJECT JUDY, players must dive into the depths of the ocean to save the planet by restoring recyclable waste to its rightful place. The game is controlled using the Arrow keys, making it easy to navigate through the dangerous waters. As players explore the underwater world, they must gather as much waste as they can while avoiding bombs and deadly fishes.\n\nPlayers must keep an eye on their health and oxygen levels, represented by a red bar and a blue bar respectively. Gathering waste will grant players oxygen points, which they can use to fill up their oxygen bar. A full oxygen bar will also regenerate their health, allowing them to continue on their mission.\n\nWith challenging obstacles and a mission to save the planet, PROJECT JUDY is an exciting game for players of all ages.\n\nACKNOWLEDGEMENT\n\n1) GDevelop open-source game engine contributors.\n2) Lv.99 Game Jam 2023  team, judges, sponsors and moderators.\n3) My lovely mother and family for the continuous support.\n4) All of you for playing my game.",
     "author": "Ikmal Said",
     "windowWidth": 1024,
     "windowHeight": 768,
@@ -27,7 +27,36 @@
     "maxFPS": 60,
     "minFPS": 60,
     "verticalSync": false,
-    "platformSpecificAssets": {},
+    "platformSpecificAssets": {
+      "android-icon-144": "",
+      "android-icon-192": "",
+      "android-icon-36": "",
+      "android-icon-48": "",
+      "android-icon-72": "",
+      "android-icon-96": "",
+      "android-windowSplashScreenAnimatedIcon": "",
+      "desktop-icon-512": "",
+      "ios-icon-100": "",
+      "ios-icon-1024": "",
+      "ios-icon-114": "",
+      "ios-icon-120": "",
+      "ios-icon-144": "",
+      "ios-icon-152": "",
+      "ios-icon-167": "",
+      "ios-icon-180": "",
+      "ios-icon-20": "",
+      "ios-icon-29": "",
+      "ios-icon-40": "",
+      "ios-icon-50": "",
+      "ios-icon-57": "",
+      "ios-icon-58": "",
+      "ios-icon-60": "",
+      "ios-icon-72": "",
+      "ios-icon-76": "",
+      "ios-icon-80": "",
+      "ios-icon-87": "",
+      "liluo-thumbnail": "thumbnail.jpg"
+    },
     "loadingScreen": {
       "backgroundColor": 0,
       "backgroundFadeInDuration": 0.2,
@@ -54,8 +83,14 @@
     "authorUsernames": [
       "ikmalsaid"
     ],
-    "categories": [],
-    "playableDevices": [],
+    "categories": [
+      "platformer",
+      "survival",
+      "jam"
+    ],
+    "playableDevices": [
+      "keyboard"
+    ],
     "extensionProperties": [],
     "platforms": [
       {
@@ -944,10 +979,19 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/tiles_void.png.png",
+        "file": "assets/tiles_void.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
         "name": "tiles\\void.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "thumbnail.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "thumbnail.jpg",
         "smoothed": false,
         "userAdded": false
       }

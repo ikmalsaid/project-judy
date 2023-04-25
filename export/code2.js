@@ -85,7 +85,7 @@ gdjs.resultCode.GDNewButtonObjects1= [];
 gdjs.resultCode.GDNewButtonObjects2= [];
 
 
-gdjs.resultCode.asyncCallback16289684 = function (runtimeScene, asyncObjectsList) {
+gdjs.resultCode.asyncCallback17052028 = function (runtimeScene, asyncObjectsList) {
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "home", false);
 }}
 gdjs.resultCode.eventsList0 = function(runtimeScene) {
@@ -96,7 +96,7 @@ gdjs.resultCode.eventsList0 = function(runtimeScene) {
 {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.resultCode.asyncCallback16289684(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.resultCode.asyncCallback17052028(runtimeScene, asyncObjectsList)));
 }
 }
 
@@ -147,7 +147,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.wasKeyReleased(runtimeScene, "Space");
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(16289292);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17051636);
 }
 }
 if (isConditionTrue_0) {

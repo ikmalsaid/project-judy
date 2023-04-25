@@ -8,7 +8,7 @@ if (typeof gdjs.evtsExt__CameraShake__SetSeed !== "undefined") {
 gdjs.evtsExt__CameraShake__SetSeed = {};
 
 
-gdjs.evtsExt__CameraShake__SetSeed.userFunc0xbb4358 = function(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__CameraShake__SetSeed.userFunc0xade758 = function(runtimeScene, eventsFunctionContext) {
 "use strict";
 gdjs._cameraShakeExtension.noiseManager.setSeed(eventsFunctionContext.getArgument("Seed"));
 };
@@ -17,7 +17,7 @@ gdjs.evtsExt__CameraShake__SetSeed.eventsList0 = function(runtimeScene, eventsFu
 {
 
 
-gdjs.evtsExt__CameraShake__SetSeed.userFunc0xbb4358(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__CameraShake__SetSeed.userFunc0xade758(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 

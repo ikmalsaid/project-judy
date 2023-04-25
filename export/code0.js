@@ -81,7 +81,7 @@ gdjs.homeCode.GDtransitionObjects1= [];
 gdjs.homeCode.GDtransitionObjects2= [];
 
 
-gdjs.homeCode.asyncCallback15496316 = function (runtimeScene, asyncObjectsList) {
+gdjs.homeCode.asyncCallback16176828 = function (runtimeScene, asyncObjectsList) {
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "main", false);
 }}
 gdjs.homeCode.eventsList0 = function(runtimeScene) {
@@ -92,7 +92,7 @@ gdjs.homeCode.eventsList0 = function(runtimeScene) {
 {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.homeCode.asyncCallback15496316(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.homeCode.asyncCallback16176828(runtimeScene, asyncObjectsList)));
 }
 }
 
@@ -127,7 +127,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.wasKeyReleased(runtimeScene, "Space");
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(15495916);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(16175836);
 }
 }
 if (isConditionTrue_0) {

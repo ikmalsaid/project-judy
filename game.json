@@ -23,7 +23,7 @@
     "author": "Ikmal Said",
     "windowWidth": 1024,
     "windowHeight": 768,
-    "latestCompilationDirectory": "",
+    "latestCompilationDirectory": "E:\\Personal\\Works\\ikmalsaid\\2023\\github\\GDevelop-ProjectJudy\\export",
     "maxFPS": 60,
     "minFPS": 60,
     "verticalSync": false,
@@ -863,7 +863,7 @@
         "name": "music\\DifferentWorldBelow.ogg",
         "preloadAsMusic": false,
         "preloadAsSound": false,
-        "preloadInCache": false,
+        "preloadInCache": true,
         "userAdded": false
       },
       {
@@ -909,7 +909,7 @@
         "name": "sound\\enter.wav",
         "preloadAsMusic": false,
         "preloadAsSound": false,
-        "preloadInCache": false,
+        "preloadInCache": true,
         "userAdded": true
       },
       {
@@ -919,7 +919,7 @@
         "name": "sound\\enemy.wav",
         "preloadAsMusic": false,
         "preloadAsSound": false,
-        "preloadInCache": false,
+        "preloadInCache": true,
         "userAdded": true
       },
       {
@@ -929,7 +929,7 @@
         "name": "sound\\collect.wav",
         "preloadAsMusic": false,
         "preloadAsSound": false,
-        "preloadInCache": false,
+        "preloadInCache": true,
         "userAdded": true
       },
       {
@@ -939,7 +939,7 @@
         "name": "sound\\drop.wav",
         "preloadAsMusic": false,
         "preloadAsSound": false,
-        "preloadInCache": false,
+        "preloadInCache": true,
         "userAdded": true
       },
       {
